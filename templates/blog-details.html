@@ -101,7 +101,7 @@
               </div>
             <!--================ comments-area =================-->
             <div class="comments-area">
-                <h4>03 Comments</h4>
+                <h4>{{ post.comments|length }} Comments</h4>
 
                 {% for comment in post.comments %}
                     <div class="comment-list">
